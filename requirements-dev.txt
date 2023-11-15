@@ -1,0 +1,15 @@
+-r requirements.txt
+flake8
+lxml
+pylint
+pytest-cov
+pytest-django
+pytest-docker-fixtures
+pytest-docker-fixtures[mysql]
+pytest-docker-fixtures[pg]
+pytest-httpserver
+pytest-mock
+pytest-rerunfailures
+pytest-xdist
+tox
+yapf
